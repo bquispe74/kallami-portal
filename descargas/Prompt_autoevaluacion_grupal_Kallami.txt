@@ -1,0 +1,79 @@
+PROMPT PARA UNA NUEVA CONVERSACIÓN
+AUTOEVALUACIÓN GRUPAL DE KALLAMI: SENDEROS DE PLATA
+
+Actúa como evaluador académico universitario de Taller de Proyecto INF-266, Carrera de Informática. Realiza una autoevaluación grupal, rigurosa y basada en evidencias del videojuego “Kallami: Senderos de Plata”. El resultado debe ser una sola evaluación, un puntaje grupal y una nota grupal para el proyecto completo.
+
+INTEGRANTES Y ÁREAS DE TRABAJO
+
+Brayan Quispe Mamani: cliente, jugabilidad e integración en Godot.
+Douglas Israel Roman Quispe: servidor, FastAPI, SQLite y contrato HTTP/JSON.
+Eduardo Ricardo Condori Mamani: pruebas y Seguridad de la Información.
+
+No asignes notas individuales. Evalúa el resultado integrado del equipo; usa las áreas anteriores solo para describir aportes que estén respaldados por archivos o evidencias.
+
+EVIDENCIAS QUE PUEDEN ACOMPAÑAR ESTE PROMPT
+
+Puedo adjuntar el checklist de la docente, GDD de Semana 1 y Semana 2, proyecto fuente en ZIP, video de gameplay, guías de ejecución, documentación técnica, informes de seguridad, matriz y resultados de pruebas, código y otros materiales.
+
+Antes de puntuar, inventaría los archivos que realmente recibiste y revisa el contenido que puedas abrir. No digas que inspeccionaste un archivo completo si solo viste su nombre, una vista previa o una parte. Si no puedes abrir un ZIP, analizar el video o revisar un repositorio, dilo con precisión y explica qué evidencia alternativa usaste. No supongas que falta un archivo solo porque no lo recibiste en esta conversación.
+
+RÚBRICA OFICIAL
+
+Usa como rúbrica principal únicamente estos diez criterios del checklist oficial:
+
+1. El videojuego ejecuta correctamente.
+2. La mecánica principal funciona y se entiende.
+3. El jugador tiene un objetivo o reto claro.
+4. Los controles y la interacción responden adecuadamente.
+5. La interfaz / HUD es visible y útil.
+6. El estudiante demuestra el juego en vivo.
+7. Explica claramente cómo funciona su videojuego.
+8. Explica una dificultad técnica y cómo la resolvió.
+9. Presenta el video de gameplay solicitado.
+10. Presenta correctamente los enlaces o archivos de entrega.
+
+Aplica la escala sin modificarla: SÍ = 2 puntos; PARCIAL = 1 punto; NO = 0 puntos. El máximo es 20. Calcula la nota como puntaje total × 5, sobre 100. No inventes criterios ni ponderaciones adicionales. El checklist se titula “Defensa individual”; como esta solicitud busca una autoevaluación grupal, advierte esa diferencia y no presentes tu resultado como nota oficial de la docente.
+
+REGLAS PARA VALORAR LA EVIDENCIA
+
+- Distingue entre algo descrito en el GDD, implementado en el código, probado automáticamente, observado en video y demostrado en vivo. Una descripción por sí sola no prueba que una función opere.
+- Para cada afirmación técnica, indica el archivo y la ubicación que puedas comprobar: página o sección, ruta de código, resultado de prueba o minuto aproximado del video. No inventes páginas, marcas de tiempo ni resultados.
+- Si una función tiene evidencia parcial, marca PARCIAL. Si no hay evidencia suficiente, marca NO cuando corresponda y aclara que significa “no verificable con lo recibido”, no que necesariamente no se hizo.
+- Separa la calidad del juego de la calidad de la exposición. La ausencia de una grabación de la defensa en vivo no demuestra que el juego no funcione.
+- Reconoce resultados favorables con el mismo cuidado con el que reportas fallas. No dupliques una penalización por el mismo problema en varios criterios cuando el checklist no lo justifique.
+- Los hallazgos de seguridad aportan contexto a la revisión, pero no son criterios adicionales ni deben bajar la nota por sí solos. Describe con equilibrio los controles comprobados y los riesgos pendientes.
+- No favorezcas al equipo ni reduzcas la nota sin evidencia. El esfuerzo se reconoce en los aportes descriptivos; la puntuación se decide con el checklist. No infles ni fijes de antemano una nota.
+- Si los archivos corresponden a versiones distintas, identifica cuál parece ser la versión final y no atribuyas automáticamente a la versión final defectos corregidos en un prototipo anterior.
+
+CONTEXTO TÉCNICO A VERIFICAR
+
+El proyecto final describe una aventura narrativa 2D de tres niveles: comunidad, ascenso y cámara de plata. El paquete incluye un cliente Godot, un servidor FastAPI y persistencia SQLite por perfil. Los documentos describen mecánicas de exploración, interacción con Florencio, combate con honda, memorias, minimapa, música, perfiles y rompecabezas final. Verifica en las evidencias qué está realmente implementado y qué puede observarse; no des por probada una función solo porque aparece en esta descripción.
+
+La documentación de Seguridad de la Información informa controles de perfil/PIN, derivación PBKDF2 con sal, tokens y pruebas de autorización, además de hallazgos residuales sobre integridad del estado, transición de nivel e intentos de PIN. Comprueba los detalles en el informe y el código recibidos. No declares que el sistema es seguro para producción si el propio análisis señala límites.
+
+FORMATO DE RESPUESTA
+
+1. Cobertura de evidencias: lista brevemente qué archivos pudiste inspeccionar y qué limitaciones tuviste.
+2. Tabla con exactamente diez filas y estas columnas:
+
+| Nº | Criterio exacto | Resultado SÍ/PARCIAL/NO | Puntos | Evidencia verificable | Justificación |
+
+3. Puntaje total: __ / 20.
+4. Nota grupal: __ / 100. Muestra la operación: puntaje × 5.
+5. Estado: Satisfactorio / Parcial / Requiere mejoras. El checklist no indica rangos numéricos para estos estados: si no se proporcionó una regla adicional de la docente, no inventes cortes; indica que la equivalencia del estado debe confirmarse con ella.
+6. Fortaleza principal del equipo, basada en una evidencia concreta.
+7. Aspecto principal a mejorar, basado en una evidencia concreta.
+8. Aportes evidenciados por área, sin notas individuales:
+   - Brayan: cliente y gameplay.
+   - Douglas: servidor, FastAPI y SQLite.
+   - Eduardo: pruebas y Seguridad de la Información.
+   Si la atribución personal no aparece respaldada, indícalo en vez de adivinar.
+9. Evolución breve: qué se planteó al inicio, qué aparece en la versión final, qué se corrigió y qué quedó pendiente.
+10. Limitaciones: criterios que no se puedan comprobar con los archivos; distingue especialmente la demostración en vivo y la explicación oral.
+11. Versión formal y concisa de la autoevaluación grupal, lista para enviar a la docente. Preséntala como autoevaluación del equipo, no como calificación oficial.
+
+Antes de cerrar, vuelve a comprobar que la tabla contiene los diez criterios exactos, que los puntos suman correctamente y que la nota corresponde a puntaje × 5. Separa hechos, inferencias y aspectos no verificables.
+
+IMPORTANTE PARA ESTA NUEVA CONVERSACIÓN
+
+No empieces a calificar hasta que confirme que ya adjunté los archivos disponibles. Primero responde con una lista de los archivos recibidos y señala cuáles no puedes leer. Luego pregunta si terminé de adjuntar evidencias. Cuando confirme, realiza la evaluación completa según las reglas anteriores.

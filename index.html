@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101d2b">
+  <meta name="description" content="Kallami: Senderos de Plata. Proyecto de videojuego 2D del Taller INF-266, UMSA.">
+  <title>Kallami · Senderos de Plata</title>
+  <link rel="preload" href="imagenes/comunidad.png" as="image">
+  <link rel="stylesheet" href="assets/kallami.css">
+  <script src="assets/enlaces.js" defer></script>
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Kallami, inicio">
+      <span class="brand-mark" aria-hidden="true">K</span>
+      <span>KALLAMI <small>SENDEROS DE PLATA</small></span>
+    </a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" type="button">Menú</button>
+    <nav id="site-nav" class="site-nav" aria-label="Navegación principal">
+      <a href="#aventura">La aventura</a>
+      <a href="#jugar">Gameplay</a>
+      <a href="#autoevaluacion">Autoevaluación</a>
+      <a href="#proyecto">Material del proyecto</a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> Videojuego narrativo · UMSA · INF-266</p>
+        <h1>El cerro guarda<br><em>más que plata.</em></h1>
+        <p class="hero-lede">Acompaña a Juan por una comunidad andina, el ascenso al Kallami y una cámara subterránea donde cada recuerdo cambia el sentido de la aventura.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="juego/index.html" target="_blank" rel="noopener">Jugar en navegador <span aria-hidden="true">↗</span></a>
+          <a class="button button-quiet" href="https://chatgpt.com/share/6ac1c79d-f638-83e9-a1cb-17c829a330f4" target="_blank" rel="noopener noreferrer">Autoevaluación grupal · 20/20 <span aria-hidden="true">↗</span></a>
+          <a class="button button-quiet" href="descargas/Kallami_Final_proyecto_Godot.zip" download>Descargar proyecto Godot <span aria-hidden="true">↓</span></a>
+        </div>
+        <p class="hero-note">Proyecto académico de aventura 2D · versión final 1.5.0</p>
+      </div>
+      <div class="hero-art" aria-label="Arte conceptual de los personajes y escenarios de Kallami">
+        <div class="art-frame"><img src="imagenes/personajes.png" alt="Boceto conceptual de Juan, Florencio y las sombras" fetchpriority="high"></div>
+        <span class="art-caption">UNA HISTORIA DEL CERRO KALLAMI</span>
+        <span class="sun-disc" aria-hidden="true"></span>
+      </div>
+      <div class="hero-bottom" aria-hidden="true"><span>01 — COMUNIDAD</span><span>02 — ASCENSO</span><span>03 — CÁMARA DE PLATA</span></div>
+    </section>
+
+    <section class="evaluation-featured" id="autoevaluacion" aria-labelledby="evaluation-title">
+      <div class="evaluation-inner">
+        <div class="evaluation-topline"><span>ENTREGA PRINCIPAL · AUTOEVALUACIÓN</span><span>RESULTADO GRUPAL · 20 / 20</span></div>
+        <div class="evaluation-content">
+          <div class="evaluation-heading">
+            <p class="eyebrow">KALLAMI · TALLER INF-266</p>
+            <h2 id="evaluation-title">Autoevaluación grupal.<br><em>Una nota de equipo.</em></h2>
+            <p>Consulta la conversación completa de ChatGPT con la revisión del proyecto, los criterios y la evidencia. El resultado grupal registrado es <strong>20/20 · 100/100</strong>.</p>
+          </div>
+          <aside class="evaluation-share-card" aria-label="Enlace directo a la autoevaluación compartida">
+            <span class="share-card-label">CHATGPT · CONVERSACIÓN COMPARTIDA</span>
+            <p>Abre aquí la autoevaluación completa.</p>
+            <a class="button button-gold evaluation-share-button" id="evaluation-link" href="https://chatgpt.com/share/6ac1c79d-f638-83e9-a1cb-17c829a330f4" target="_blank" rel="noopener noreferrer">Abrir autoevaluación en ChatGPT <span aria-hidden="true">↗</span></a>
+            <code class="evaluation-share-url">chatgpt.com/share/6ac1c79d-f638-83e9-a1cb-17c829a330f4</code>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section rubric-section" id="tabla-autoevaluacion" aria-labelledby="rubric-title">
+      <div class="section-label"><span>RESULTADO</span><span>AUTOEVALUACIÓN GRUPAL</span></div>
+      <div class="rubric-heading">
+        <div><p class="eyebrow">CHECKLIST DE LA MESA</p><h2 id="rubric-title">Diez criterios.<br><em>Una nota de equipo.</em></h2></div>
+        <div class="rubric-score"><span>PUNTAJE GRUPAL</span><strong>20 <small>/ 20</small></strong><b>100 / 100</b><small>20 × 5 · cumplimiento de los 10 criterios: Satisfactorio</small></div>
+      </div>
+      <p class="rubric-caveat">El checklist recibido se titula “Defensa individual”. Esta tabla presenta una autoevaluación común del proyecto y no reemplaza la nota individual ni el criterio de la docente. El equipo confirma que la docente revisó en persona el contenido y la defensa; las actividades relacionadas obtuvieron puntaje completo. El criterio de entrega también se cumple con los archivos presentados y el ZIP del portal. Los estados no tienen cortes numéricos definidos en el checklist; por eso “Satisfactorio” es una lectura orientativa.</p>
+      <div class="rubric-table-wrap" role="region" aria-label="Tabla de los diez criterios de autoevaluación" tabindex="0">
+        <table class="rubric-table">
+          <thead><tr><th scope="col">N.º</th><th scope="col">Criterio</th><th scope="col">Resultado</th><th scope="col">Puntos</th><th scope="col">Evidencia revisada</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">1</th><td>El videojuego ejecuta correctamente.</td><td><span class="mark mark-yes">Sí</span></td><td>2</td><td>Gameplay final 1.5 y paquete de escritorio.</td></tr>
+            <tr><th scope="row">2</th><td>La mecánica principal funciona y se entiende.</td><td><span class="mark mark-yes">Sí</span></td><td>2</td><td>Video final, scripts del juego y GDD final.</td></tr>
+            <tr><th scope="row">3</th><td>El jugador tiene un objetivo o reto claro.</td><td><span class="mark mark-yes">Sí</span></td><td>2</td><td>Objetivos por zona en el HUD y GDD final.</td></tr>
+            <tr><th scope="row">4</th><td>Los controles y la interacción responden adecuadamente.</td><td><span class="mark mark-yes">Sí</span></td><td>2</td><td>Controles documentados, interacción implementada y prompts visibles en el gameplay.</td></tr>
+            <tr><th scope="row">5</th><td>La interfaz / HUD es visible y útil.</td><td><span class="mark mark-yes">Sí</span></td><td>2</td><td>El video muestra objetivo, vida, memorias, mapa y mensajes.</td></tr>
+            <tr><th scope="row">6</th><td>El estudiante demuestra el juego en vivo.</td><td><span class="mark mark-yes">Sí</span></td><td>2</td><td>Revisión presencial de la docente confirmada por el equipo; Classroom registra puntaje completo.</td></tr>
+            <tr><th scope="row">7</th><td>Explica claramente cómo funciona su videojuego.</td><td><span class="mark mark-yes">Sí</span></td><td>2</td><td>El equipo confirma que la defensa fue revisada en persona y obtuvo puntaje completo en las actividades relacionadas.</td></tr>
+            <tr><th scope="row">8</th><td>Explica una dificultad técnica y cómo la resolvió.</td><td><span class="mark mark-yes">Sí</span></td><td>2</td><td>El equipo confirma revisión presencial y puntaje completo; informe de seguridad y bitácora documentan los hallazgos y correcciones.</td></tr>
+            <tr><th scope="row">9</th><td>Presenta el video de gameplay solicitado.</td><td><span class="mark mark-yes">Sí</span></td><td>2</td><td>Gameplay final de 60 s; captura del registro del tráiler marca 10/10, sin adjunto visible.</td></tr>
+            <tr><th scope="row">10</th><td>Presenta correctamente los enlaces o archivos de entrega.</td><td><span class="mark mark-yes">Sí</span></td><td>2</td><td>El equipo presentó los materiales y la docente los revisó presencialmente; el ZIP reúne el portal y sus archivos. La URL pública puede añadirse al publicar.</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="rubric-note"><strong>Cómo leer las capturas:</strong> la plataforma registra TRAILER 10/10, Semana 2 8/8, Desafío 10/10 y Propuesta GDD 10/10. El equipo aclara que la docente revisó el trabajo, el contenido y la defensa presencialmente y después anotó las notas en Classroom. Los puntajes completos respaldan esa evaluación; los archivos se incluyen en el ZIP del portal y el enlace de ChatGPT ya está puesto. La página todavía no tiene URL pública.</p>
+      <details class="grade-evidence"><summary>Ver las capturas de calificaciones</summary><div class="grade-gallery">
+        <a href="evidencias/trailer-modalidad-a.png"><img src="evidencias/trailer-modalidad-a.png" alt="Registro de TRAILER Gameplay Modalidad A con calificación 10 de 10"><span>TRAILER · Modalidad A · 10/10</span></a>
+        <a href="evidencias/video-semana-2.png"><img src="evidencias/video-semana-2.png" alt="Registro de Modalidad B Semana 2 Video con calificación 8 de 8; figura sin trabajo adjunto"><span>Video Semana 2 · 8/8</span></a>
+        <a href="evidencias/desafio-modalidad-b.png"><img src="evidencias/desafio-modalidad-b.png" alt="Registro del Desafío Modalidad B con calificación 10 de 10"><span>Desafío Modalidad B · 10/10</span></a>
+        <a href="evidencias/propuesta-gdd.png"><img src="evidencias/propuesta-gdd.png" alt="Registro del Desafío Propuesta GDD con calificación 10 de 10"><span>Propuesta GDD · 10/10</span></a>
+      </div></details>
+      <div class="rubric-downloads"><a class="button button-dark" href="descargas/Autoevaluacion_Grupal_Kallami_Final.docx" download>Descargar informe DOCX ↓</a><a class="button button-outline" href="descargas/Autoevaluacion_Grupal_Kallami_Final.pdf" download>Descargar informe PDF ↓</a></div>
+    </section>
+
+    <section class="section intro" id="aventura">
+      <div class="section-label"><span>01</span><span>LA AVENTURA</span></div>
+      <div class="intro-grid">
+        <h2>Recorrer el camino<br>también es <em>recordar.</em></h2>
+        <div><p>Juan parte desde el pueblo siguiendo las indicaciones de Florencio Mamani. En el ascenso aparecen sombras y memorias dispersas; al final, el jugador debe ordenar los relatos antes de alcanzar la plata.</p><p class="muted">El juego toma como punto de partida un relato oral sobre el Cerro Kallami y construye alrededor de él una aventura ficticia en tres niveles.</p></div>
+      </div>
+      <div class="world-grid">
+        <article class="world-card"><img src="imagenes/comunidad.png" alt="Concepto visual del nivel de la comunidad" loading="lazy"><div><span>NIVEL 01</span><h3>La comunidad</h3><p>Habla con Florencio y encuentra el camino que sube al cerro.</p></div></article>
+        <article class="world-card"><img src="imagenes/ascenso.png" alt="Concepto visual del sendero de ascenso" loading="lazy"><div><span>NIVEL 02</span><h3>El ascenso</h3><p>Explora el sendero, esquiva las sombras y reúne tres memorias.</p></div></article>
+        <article class="world-card"><img src="imagenes/camara.png" alt="Concepto visual de la cámara de plata" loading="lazy"><div><span>NIVEL 03</span><h3>La cámara</h3><p>Enfrenta a los guardianes, ordena los hechos y supera el derrumbe.</p></div></article>
+      </div>
+      <div class="loop-strip"><span>HABLAR</span><b>→</b><span>EXPLORAR</span><b>→</b><span>REUNIR MEMORIAS</span><b>→</b><span>RESOLVER</span><b>→</b><span>REGRESAR</span></div>
+    </section>
+
+    <section class="game-section" id="jugar">
+      <div class="section section-game">
+        <div class="section-label section-label-light"><span>02</span><span>GAMEPLAY</span></div>
+        <div class="game-grid">
+          <div class="game-copy"><p class="eyebrow">MIRA EL RECORRIDO</p><h2>Senderos, sombras<br>y una decisión final.</h2><p>El video muestra el tono visual y las mecánicas principales del prototipo. Para ejecutar la versión de escritorio, descarga el proyecto y sigue la guía adjunta.</p><a class="button button-gold" href="descargas/Trailer_Kallami_60s_comprimido.mp4" download>Descargar video de gameplay <span aria-hidden="true">↗</span></a></div>
+          <div class="video-shell"><video controls preload="metadata" poster="imagenes/comunidad.png"><source src="descargas/Trailer_Kallami_60s_comprimido.mp4" type="video/mp4">Tu navegador no puede reproducir este video. <a href="descargas/Trailer_Kallami_60s_comprimido.mp4">Descárgalo aquí.</a></video><p>TRÁILER / GAMEPLAY · 60 SEGUNDOS</p></div>
+        </div>
+        <div class="download-panel"><div><span class="download-kicker">JUEGA EN LA WEB O DESCARGA</span><h3>Elige cómo entrar a Kallami</h3><p>Juega directamente en el navegador, o descarga el proyecto Godot de escritorio con su servidor local y guía para Linux y Windows.</p></div><div class="game-actions"><a class="button button-gold" href="juego/index.html" target="_blank" rel="noopener">Jugar ahora <span aria-hidden="true">↗</span></a><a class="button button-light" href="descargas/Kallami_Final_proyecto_Godot.zip" download>Descargar proyecto ZIP <span aria-hidden="true">↓</span></a></div></div>
+        <p class="export-note"><strong>Versión web:</strong> guarda perfiles y avance en el navegador de este dispositivo; no se sincronizan entre equipos. Los controles actuales están pensados para teclado. La exportación requiere un navegador compatible con WebAssembly y WebGL 2.</p>
+      </div>
+    </section>
+
+    <section class="section security-section" id="seguridad">
+      <div class="section-label"><span>04</span><span>APORTE DE SEGURIDAD</span></div>
+      <div class="security-grid">
+        <div><p class="eyebrow">EDUARDO · SEGURIDAD DE LA INFORMACIÓN</p><h2>Probar también es<br>decir lo que falta.</h2><p>La revisión final comprobó el inicio de sesión por perfil, la protección del PIN mediante derivación PBKDF2 con sal, el uso de tokens y el aislamiento de partidas. La suite del proyecto pasó 12 pruebas y el informe documenta 18 comprobaciones adicionales.</p><a class="text-link" href="descargas/Informe_Final_Seguridad_Informacion_Kallami.docx">Leer el informe final <span aria-hidden="true">↗</span></a></div>
+        <div class="finding-card"><span class="finding-label">HALLAZGOS ABIERTOS DOCUMENTADOS</span><div class="finding-row"><b>01</b><p>La API todavía acepta ciertos cambios de salud y posición propuestos por el cliente.</p></div><div class="finding-row"><b>02</b><p>La transición hacia la cámara final no exige las tres memorias en todos los casos.</p></div><div class="finding-row"><b>03</b><p>El código no muestra un límite de intentos para PIN; este punto se identificó por revisión estática.</p></div><p class="finding-foot">La auditoría registra también límites de alcance y condiciones para no presentar el prototipo como un servicio de producción.</p></div>
+      </div>
+    </section>
+
+    <section class="section materials-section" id="proyecto">
+      <div class="section-label"><span>05</span><span>BITÁCORA Y ENTREGABLES</span></div>
+      <div class="materials-heading"><div><p class="eyebrow">MATERIAL DEL EQUIPO</p><h2>Del diseño a las pruebas.</h2></div><p>Documentos de diseño, seguimiento, ejecución y seguridad reunidos en un solo lugar.</p></div>
+      <div class="materials-grid">
+        <a class="material-card" href="descargas/Informe_Final_Proyecto_Kallami_Senderos_de_Plata.docx"><span class="material-type">ENTREGA FINAL · PROYECTO</span><h3>Documento final del proyecto</h3><p>Memoria de la versión de escritorio con servidor: juego, arquitectura, pruebas, seguridad, aportes y límites.</p><span class="material-action">Descargar DOCX ↗</span></a>
+        <a class="material-card" href="descargas/GDD_Final_Kallami_Senderos_de_Plata_v1.5.docx"><span class="material-type">DISEÑO · GDD FINAL 1.5</span><h3>Diseño final del juego</h3><p>Especificación compatible con el paquete Godot que integra FastAPI y SQLite; registra los cambios desde Semana 1.</p><span class="material-action">Descargar DOCX ↗</span></a>
+        <a class="material-card" href="descargas/GDD_Grupal_Kallami_v1.1_Semana_1.docx"><span class="material-type">DISEÑO · SEMANA 1</span><h3>Documento de diseño del juego</h3><p>Premisa, niveles, mecánicas, alcance y responsabilidades del equipo.</p><span class="material-action">Descargar DOCX ↗</span></a>
+        <a class="material-card" href="descargas/GDD_Kallami_Semana_2.docx"><span class="material-type">DISEÑO · SEMANA 2</span><h3>GDD actualizado</h3><p>Versión del documento de diseño integrada en el paquete final.</p><span class="material-action">Descargar DOCX ↗</span></a>
+        <a class="material-card" href="descargas/Informe_Seguridad_Semana_2_Kallami_Auditoria_Tecnica_CORREGIDO.docx"><span class="material-type">SEGURIDAD · SEMANA 2</span><h3>Primera auditoría técnica</h3><p>Revisión del Alpha, hallazgos y recomendaciones de corrección.</p><span class="material-action">Descargar DOCX ↗</span></a>
+        <a class="material-card" href="descargas/Informe_Final_Seguridad_Informacion_Kallami.docx"><span class="material-type">SEGURIDAD · FINAL</span><h3>Evaluación final de seguridad</h3><p>Alcance, evidencias reproducibles, resultados y riesgos que siguen abiertos.</p><span class="material-action">Descargar DOCX ↗</span></a>
+        <a class="material-card" href="descargas/Guia_Paso_a_Paso_Ejecutar_Kallami_Windows_Linux.pdf"><span class="material-type">GUÍA TÉCNICA</span><h3>Ejecutar en Linux o Windows</h3><p>Requisitos, instalación, arranque del servidor y apertura del juego.</p><span class="material-action">Descargar PDF ↗</span></a>
+        <a class="material-card" href="descargas/Guion_defensa_final.md"><span class="material-type">DEFENSA FINAL</span><h3>Recorrido para la presentación</h3><p>Orden sugerido, evidencia de persistencia, seguridad aplicada y preguntas probables.</p><span class="material-action">Abrir documento ↗</span></a>
+        <a class="material-card" href="descargas/Matriz_pruebas_semana_2.md"><span class="material-type">PRUEBAS · SEMANA 2</span><h3>Matriz de pruebas</h3><p>Casos de verificación documentados para la versión Alpha.</p><span class="material-action">Abrir documento ↗</span></a>
+        <a class="material-card" href="descargas/pruebas_seguridad_kallami_final.py" download><span class="material-type">EVIDENCIA TÉCNICA</span><h3>Pruebas reproducibles</h3><p>Script complementario que usa una base temporal durante las verificaciones.</p><span class="material-action">Descargar PY ↗</span></a>
+        <a class="material-card" href="descargas/Memoria_Interna_Cambios_GDD_Kallami.docx"><span class="material-type">BITÁCORA</span><h3>Registro de cambios</h3><p>Decisiones y ajustes realizados durante el desarrollo del GDD.</p><span class="material-action">Descargar DOCX ↗</span></a>
+      </div>
+      <p class="materials-footnote">El contenido descargable forma parte del paquete académico del proyecto. Las conclusiones de seguridad describen una auditoría de prototipo y sus límites.</p>
+    </section>
+
+    <section class="team-section">
+      <div class="section section-team">
+        <div class="section-label section-label-light"><span>06</span><span>EL EQUIPO</span></div>
+        <h2>Tres miradas,<br>un mismo recorrido.</h2>
+        <div class="team-grid"><div><span>DESARROLLO DE SOFTWARE</span><h3>Brayan Quispe Mamani</h3><p>Cliente, jugabilidad e integración en Godot.</p></div><div><span>INGENIERÍA DE SISTEMAS</span><h3>Douglas Israel Roman Quispe</h3><p>Servidor FastAPI, SQLite y contrato HTTP/JSON.</p></div><div><span>SEGURIDAD DE LA INFORMACIÓN</span><h3>Eduardo Ricardo Condori Mamani</h3><p>Pruebas y revisión de seguridad.</p></div></div>
+        <p class="course-line">Universidad Mayor de San Andrés · Carrera de Informática · Taller de Proyecto INF-266</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand brand-footer" href="#inicio"><span class="brand-mark" aria-hidden="true">K</span><span>KALLAMI <small>SENDEROS DE PLATA</small></span></a><p>Prototipo académico · Relato inspirado en el Cerro Kallami</p><a href="#inicio" class="back-top">Volver arriba ↑</a></footer>
+</body>
+</html>
